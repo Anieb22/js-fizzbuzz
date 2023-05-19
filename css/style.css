@@ -1,0 +1,25 @@
+.container{
+    width: 1080px;
+    margin: 150 auto;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.board-row{
+    display: flex;
+}
+
+.square{
+    width: 90px;
+    height: 90px;
+}
