@@ -3,10 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: bisque;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
 
 .container{
     width: 1080px;
-    margin: 150 auto;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .red{
@@ -21,11 +32,13 @@
     background-color: orange;
 }
 
-.board-row{
-    display: flex;
+.green{
+    background-color: green;
 }
+
 
 .square{
     width: 90px;
     height: 90px;
+    margin: 10px;
 }
